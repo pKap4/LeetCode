@@ -28,7 +28,6 @@ class Solution
 	    
 	    for(int i = 0; i<V; i++){
 	        if(!visited[i]){
-	            visited[i] = true;
 	            dfs(i, V, adj, visited, s);
 	        }
 	    }
